@@ -1,0 +1,25 @@
+1. make a django project:
+
+django-admin startproject mysite .
+explanation:
+mysite is the name of the project
+. means creating the project in the same directory
+
+2. making an app:
+
+python manage.py startapp job_application
+explanation:
+job_application = name of the app 
+rest are keywords
+a project may contain multiple apps
+
+
+3. database migration:
+python manage.py makemigrations
+
+4. applying migration:
+python manage.py migrate
+
+5. Creating a superuse for password creation
+
+python manage.py createsuperuser
